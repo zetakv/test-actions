@@ -2,7 +2,7 @@
   "name": "test-actions",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zetakv.github.io/test-actions/",
+  "homepage": "https://zetakv.github.io/test-actions",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
