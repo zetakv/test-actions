@@ -17,8 +17,6 @@ jobs:
       # 使用 node
     - name: Setup Node.js for use with actions
       uses: actions/setup-node@v1.1.0
-      with:
-        version: lts
     - name: Install npm dependencies
       run: npm install
     - name: Run build task
