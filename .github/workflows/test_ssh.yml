@@ -38,7 +38,9 @@ jobs:
           host: ${{ secrets.REMOTE_HOST }}
           username: ${{ secrets.REMOTE_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: whoami
+          script: |
+            cd /devProject/node-nba-server/
+            git pull
 
 #       - name: ssh deploy
 #         uses: easingthemes/ssh-deploy@v2.0.8
